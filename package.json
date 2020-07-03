@@ -1,0 +1,27 @@
+{
+  "name": "tuk-basic-starter",
+  "version": "0.0.1",
+  "description": "Basic tailwindcss setup with directory structure.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tailwindcss build src/style.css -o public/tuk.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlphaSquadTech/tuk-basic-starter.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tuk",
+    "purge"
+  ],
+  "author": "AlphaSquadTech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlphaSquadTech/tuk-basic-starter/issues"
+  },
+  "homepage": "https://github.com/AlphaSquadTech/tuk-basic-starter#readme",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}
